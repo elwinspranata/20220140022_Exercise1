@@ -1,0 +1,67 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: linear-gradient(to right, blue, blue);
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card h2 {
+  color: #333;
+}
+
+.card p {
+  color: #666;
+}
+
+footer {
+  background: linear-gradient(to right, blue, blue);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
